@@ -1,0 +1,102 @@
+.main-popup {
+    width: 65em;
+    height: 35em;
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    box-shadow: 0 2px 33px rgba(0,0,0,.77);
+    border-radius: 8px;
+}
+
+
+.video-frame {
+    height: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.info-section {
+    margin-top: .76em;
+}
+
+.add-to-cart-div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info-section {
+    display: flex;
+}
+
+.info-1 {
+    width: 60%;
+    height: 12em;
+}
+
+.info-2 {
+    width: 40%;
+    height: 12em;
+}
+
+.info-general {
+    color: white;
+    font-size: 1.05em;
+    margin: .6em;
+}
+
+.greyed {
+    color: grey;
+}
+
+.info-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.close-btn-div {
+    height: 10%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 5px;
+}
+
+.close-btn {
+    max-width: 10%;
+    height: 3em;
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+
+.close-btn:hover {
+    color: #313131;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.add-to-cart-btn {
+    margin-top: -20px;
+    margin-bottom: 8px;
+    margin-right: 2em;
+    width: 75%;
+    height: 2em;
+    position: relative;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5em;
+
+}
+
+.add-to-cart-btn:hover {
+    color: #313131;
+    background-color: transparent;
+}
+
+.add-to-cart-label {
+    font-size: .7em;
+}

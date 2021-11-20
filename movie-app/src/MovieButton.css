@@ -1,0 +1,45 @@
+.poster {
+    height: 36vh;
+    width: 100%;
+    max-width: 24.95vh;
+    max-height: 36vh;
+    background-size: 100%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+}
+
+.poster-container{
+    position: relative;
+    height: 36vh;
+    width: 25vh;
+    margin: 1em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    font-family: "Open Sans";
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.movie-title {
+    text-align: center;
+    font-weight: bold;
+}
